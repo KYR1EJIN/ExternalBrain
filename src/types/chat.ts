@@ -14,6 +14,8 @@ export interface ChatSession {
   sessionId: string
   messages: Message[]
   createdAt: number
+  updatedAt: number
+  title?: string
   bookId?: string
 }
 
@@ -27,4 +29,3 @@ export interface ChatResponse {
   message: Message
   sessionId: string
 }
-
